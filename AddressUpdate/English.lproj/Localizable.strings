@@ -1,0 +1,123 @@
+/* Error when no name is given for the xpath key name when loading an ausite. */
+"A value for the name key must be provided for all XPath definitions." = "A value for the name key must be provided for all XPath definitions.";
+
+/* Drop down address title */
+"Address" = "Address";
+
+/* Status message in menu and in preferences */
+"AddressUpdate is off" = "AddressUpdate: Off";
+
+/* Status message in menu and in preferences */
+"AddressUpdate is on" = "AddressUpdate: On";
+
+/* Removing a site */
+"Are you sure you want to remove the site \"%@\" from your active sites?" = "Are you sure you want to remove the site \"%@\" from your active sites?";
+
+/* When updating the entire address book. */
+"Are you sure you want to update your entire Address Book?" = "Are you sure you want to update your entire Address Book?";
+
+/* Cancel button
+   Button for canceling all records update */
+"Cancel" = "Cancel";
+
+/* Collection view */
+"City" = "City";
+
+/* Main description when loading ausites. */
+"Could not load site configuration." = "Could not load site configuration.";
+
+/* When loading an ausite file which cannot be loaded into a dictionary. */
+"Could not load the site configuration file from \"%@\". Make sure the file has the right format." = "Could not load the site configuration file from \"%@\". Make sure the file has the right format.";
+
+/* When pressing the load defaults sites button. */
+"Do you want to add the site configurations that are default to your current system?" = "Do you want to add the site configurations that are default to your current system?";
+
+/* In the main method of the RecordUpdater, if the entity (site) of the record (person) is nil. */
+"entityOrRecordWasNil" = "entityOrRecordWasNil";
+
+/* Collection view */
+"First name" = "First name";
+
+/* Collection view */
+"Home phone" = "Home phone";
+
+/* Collection view */
+"Last name" = "Last name";
+
+/* Collection view */
+"Mobile phone" = "Mobile phone";
+
+/* Drop down name title */
+"Name" = "Name";
+
+/* Detailed text when reloading default configs. */
+"Note that reloading your default site configurations if you already have them among your current sites will result in duplicate sites." = "Note that reloading your default site configurations if you already have them among your current sites will result in duplicate sites.";
+
+/* When loading an ausite configuration. */
+"One ore more of the keys: \"name\", \"url\", \"searchAttribute\", \"stringEncoding\" or \"xpaths\" were not specified." = "One ore more of the keys: \"name\", \"url\", \"searchAttribute\", \"stringEncoding\" or \"xpaths\" were not specified.";
+
+/* Drop down phone title */
+"Phone" = "Phone";
+
+/* Collection view */
+"Postal code" = "Postal code";
+
+/* Remove button */
+"Remove" = "Remove";
+
+/* Informative text */
+"Removing the site will not delete any site configuration files that you might have used to import the site to AddressUpdate." = "Removing the site will not delete any site configuration files that you might have used to import the site to AddressUpdate.";
+
+/* Informative text for when all updates are complete. */
+"Some contacts are not updated because they already contain the address information found on the search site, and some because no information could be found using the telephone number(s) for that contact." = "Some contacts are not updated because they already contain the address information found on the search site, and some because no information could be found using the telephone number(s) for that contact.";
+
+/* Start button */
+"Start" = "Start";
+
+/* Collection view */
+"State" = "State";
+
+/* Stop button title */
+"Stop" = "Stop";
+
+/* Collection view */
+"Street address" = "Street address";
+
+/* Collection view */
+"Street number" = "Street number";
+
+/* Collection view */
+"Street number suffix" = "Street number suffix";
+
+/* Message when having updated all records. First %d is for the successfully updated records, the second %d is for the total attempted. */
+"Successfully updated %d contacts out of %d." = "Successfully updated %1$d contacts out of %2$d.";
+
+/* When no site configurations are available for the current system country */
+"Unfortunately no default site configurations have been created for your country." = "Unfortunately no default site configurations have been created for your country.";
+
+/* When something crashed inside the updating method of the RecordUpdater's updateRecord:usingEntity:. */
+"Unknown error occurred." = "Unknown error occurred.";
+
+/* Button for updating all records */
+"Update" = "Update";
+
+/* No comment provided by engineer. */
+"Updating the entire Address Book might result in a lot of your contacts having addresses, telephone numbers and names changed or added to them. Make sure you do a backup of your Address Book before continuing." = "Updating the entire Address Book might result in a lot of your contacts having addresses, telephone numbers and names changed or added to them. Make sure you do a backup of your Address Book before continuing.";
+
+/* Collection view */
+"Work phone" = "Work phone";
+
+/* Title for xpaths pull down menu. */
+"XPath definitions" = "XPath definitions";
+
+/* Informative text when no site conf. were found. */
+"You can still add configurations manually. Check out http://addressupdate.bergnehr.se/sites.html for available site configurations." = "You can still add configurations manually. Check out http://addressupdate.bergnehr.se/sites.html for available site configurations.";
+
+/* Quit menu item */
+"Quit" = "Quit AddressUpdate";
+
+/* Preferences menu item */
+"Preferences..." = "Preferences...";
+
+/* Button for opening the address update website */
+"Open website" = "Open website";

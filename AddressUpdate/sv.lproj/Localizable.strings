@@ -1,0 +1,123 @@
+﻿/* Error when no name is given for the xpath key name when loading an ausite. */
+"A value for the name key must be provided for all XPath definitions." = "A value for the name key must be provided for all XPath definitions.";
+
+/* Drop down address title */
+"Address" = "Address";
+
+/* Status message in menu and in preferences */
+"AddressUpdate is off" = "AddressUpdate: Av";
+
+/* Status message in menu and in preferences */
+"AddressUpdate is on" = "AddressUpdate: På";
+
+/* Removing a site */
+"Are you sure you want to remove the site \"%@\" from your active sites?" = "Är du säker på att du vill ta bort \"%@\" från dina aktiva söksidor?";
+
+/* When updating the entire address book. */
+"Are you sure you want to update your entire Address Book?" = "Är du säker på att du vill uppdatera hela din Adressbok?";
+
+/* Cancel button
+   Button for canceling all records update */
+"Cancel" = "Avbryt";
+
+/* Collection view */
+"City" = "Ort";
+
+/* Main description when loading ausites. */
+"Could not load site configuration." = "Kunde inte ladda inställningarna för söksidan.";
+
+/* When loading an ausite file which cannot be loaded into a dictionary. */
+"Could not load the site configuration file from \"%@\". Make sure the file has the right format." = "Kunde inte ladda inställningarna för söksidan från filen \"%@\". Se till att filen har rätt format.";
+
+/* When pressing the load defaults sites button. */
+"Do you want to add the site configurations that are default to your current system?" = "Vill du lägga till inställningarna för söksidorna som är inställda som förvalda för ditt system?";
+
+/* In the main method of the RecordUpdater, if the entity (site) of the record (person) is nil. */
+"entityOrRecordWasNil" = "Kunde inte uppdatera kontakten.";
+
+/* Collection view */
+"First name" = "Förnamn";
+
+/* Collection view */
+"Home phone" = "Hemtelefon";
+
+/* Collection view */
+"Last name" = "Efternamn";
+
+/* Collection view */
+"Mobile phone" = "Mobiltelefon";
+
+/* Drop down name title */
+"Name" = "Namn";
+
+/* Detailed text when reloading default configs. */
+"Note that reloading your default site configurations if you already have them among your current sites will result in duplicate sites." = "Om du laddar in de förvalda inställningarna för söksidor som du redan har tillagda bland dina aktiva söksidor kommer det att resultera i duplicerade inställningar för dessa söksidor.";
+
+/* When loading an ausite configuration. */
+"One ore more of the keys: \"name\", \"url\", \"searchAttribute\", \"stringEncoding\" or \"xpaths\" were not specified." = "En eller flera av nyckelorden \"name\", \"url\", \"searchAttribute\", \"stringEncoding\" eller \"xpaths\" var inte angivna.";
+
+/* Drop down phone title */
+"Phone" = "Telefon";
+
+/* Collection view */
+"Postal code" = "Postnummer";
+
+/* Remove button */
+"Remove" = "Ta bort";
+
+/* Informative text */
+"Removing the site will not delete any site configuration files that you might have used to import the site to AddressUpdate." = "Detta kommer inte ta bort eventuella inställningsfiler som har använts för att importera söksidan till AddressUpdate.";
+
+/* Informative text for when all updates are complete. */
+"Some contacts are not updated because they already contain the address information found on the search site, and some because no information could be found using the telephone number(s) for that contact." = "En del kontakter uppdateras inte eftersom de redan innehåller adressinformationen som hittades på söksidan och andra på grund av att ingen information kunde hittas baserat på det/de telefonnummer angivna för kontakten.";
+
+/* Start button */
+"Start" = "Starta";
+
+/* Collection view */
+"State" = "Stat";
+
+/* Stop button title */
+"Stop" = "Stoppa";
+
+/* Collection view */
+"Street address" = "Gatuadress";
+
+/* Collection view */
+"Street number" = "Gatunummer";
+
+/* Collection view */
+"Street number suffix" = "Gatunummersuffix";
+
+/* Message when having updated all records. First %d is for the successfully updated records, the second %d is for the total attempted. */
+"Successfully updated %d contacts out of %d." = "Uppdaterade %1$d av %2$d kontakter.";
+
+/* When no site configurations are available for the current system country */
+"Unfortunately no default site configurations have been created for your country." = "Några förvalda inställningar för söksidor har tyvärr ännu inte skapats för ditt land.";
+
+/* When something crashed inside the updating method of the RecordUpdater's updateRecord:usingEntity:. */
+"Unknown error occurred." = "Ett oväntat fel har inträffat.";
+
+/* Button for updating all records */
+"Update" = "Uppdatera";
+
+/* No comment provided by engineer. */
+"Updating the entire Address Book might result in a lot of your contacts having addresses, telephone numbers and names changed or added to them. Make sure you do a backup of your Address Book before continuing." = "Vid uppdatering av hela Adressboken kan adresser, telefonnummer och namn läggas till eller ändras för många kontakter. Se till att ha en säkerhetskopia av Adressboken innan du fortsätter.";
+
+/* Collection view */
+"Work phone" = "Arbetstelefon";
+
+/* Title for xpaths pull down menu. */
+"XPath definitions" = "XPath-definitioner";
+
+/* Informative text when no site conf. were found. */
+"You can still add configurations manually. Check out http://addressupdate.bergnehr.se/sites.html for available site configurations." = "Inställningar kan fortfarande läggas till manuellt. Gå in på http://addressupdate.bergnehr.se/sites.html för tillgängliga inställningar för söksidor.";
+
+/* Quit menu item */
+"Quit" = "Avsluta AddressUpdate";
+
+/* Preferences menu item */
+"Preferences..." = "Inställningar...";
+
+/* Button for opening the address update website */
+"Open website" = "Öppna hemsida";

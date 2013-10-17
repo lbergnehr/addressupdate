@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418956B510139AD4003F6124 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418956B410139AD4003F6124 /* AppController.m */; };
+		41994DC91013C5D500705A5C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41994DC81013C5D500705A5C /* AddressBook.framework */; };
+		770B37ED0679A11B001EADE2 /* AddressUpdate_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* AddressUpdate_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* AddressUpdate_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* AddressUpdate_AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B3088BBC105430B80052A6BF /* AddresUpdateStatusBarTrace.png in Resources */ = {isa = PBXBuildFile; fileRef = B3088BBB105430B80052A6BF /* AddresUpdateStatusBarTrace.png */; };
+		B3088BDC1054381C0052A6BF /* AddresUpdateStatusBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = B3088BDB1054381C0052A6BF /* AddresUpdateStatusBarBackground.png */; };
+		B31AB39E103207AF00334381 /* UpdateSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = B31AB39D103207AF00334381 /* UpdateSheet.xib */; };
+		B31AB3A21032096F00334381 /* UpdateWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B31AB3A11032096F00334381 /* UpdateWindowController.m */; };
+		B338AF681018F05C00567D0F /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B338AF671018F05C00567D0F /* StatusItemView.m */; };
+		B338B0071019AA7300567D0F /* AdressBookStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B338B0061019AA7300567D0F /* AdressBookStatusItemView.m */; };
+		B338B1011019C14200567D0F /* RecordUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = B338B1001019C14200567D0F /* RecordUpdater.m */; };
+		B3711A73103B406B00EEB785 /* OffButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B3711A71103B406B00EEB785 /* OffButton.png */; };
+		B3711A74103B406B00EEB785 /* OnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B3711A72103B406B00EEB785 /* OnButton.png */; };
+		B387E50B1015C64500F1D741 /* AddressUpdateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B387E50A1015C62B00F1D741 /* AddressUpdateKit.framework */; };
+		B387E50D1015C66900F1D741 /* AddressUpdateKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B387E50A1015C62B00F1D741 /* AddressUpdateKit.framework */; };
+		B387E51D1015CAF800F1D741 /* TabView.m in Sources */ = {isa = PBXBuildFile; fileRef = B387E51C1015CAF800F1D741 /* TabView.m */; };
+		B3886A4610729A61005E81A0 /* libpcre.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3886A4510729A61005E81A0 /* libpcre.a */; };
+		B3886A6010729FCB005E81A0 /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = B3886A5E10729FCB005E81A0 /* objpcre.m */; };
+		B3886A981072A382005E81A0 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3886A4510729A61005E81A0 /* libpcre.a */; };
+		B38C532A1090D5DF0023DEF8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B38C53281090D5DF0023DEF8 /* MainMenu.xib */; };
+		B38C532D1090D60A0023DEF8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38C532B1090D60A0023DEF8 /* Localizable.strings */; };
+		B39CFBEF1015DEF900E5CA05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39CFBEE1015DEF900E5CA05 /* QuartzCore.framework */; };
+		B39CFCD31016147F00E5CA05 /* AddressBookUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = B39CFCD21016147F00E5CA05 /* AddressBookUpdater.m */; };
+		B3A217691041D63100A31B0F /* ToolbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A217681041D63100A31B0F /* ToolbarController.m */; };
+		B3A9F32C1056C146006F1681 /* XPathsSortDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A9F32B1056C146006F1681 /* XPathsSortDescriptor.m */; };
+		B3ACAC8D1018C119004B6820 /* NSImage-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = B3ACAC8C1018C119004B6820 /* NSImage-Extras.m */; };
+		B3B4702A108BB86A00094217 /* Site Configurations in Resources */ = {isa = PBXBuildFile; fileRef = B3B4701E108BB86A00094217 /* Site Configurations */; };
+		B3D97FCF104F02C2001FB43B /* AddresUpdateStatusBarSpot.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D97FCC104F02C2001FB43B /* AddresUpdateStatusBarSpot.png */; };
+		B3D97FD0104F02C2001FB43B /* AddresUpdateStatusBarSweeper.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D97FCD104F02C2001FB43B /* AddresUpdateStatusBarSweeper.png */; };
+		B3EA4388102F474C0069B695 /* XPathMO.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA4387102F474C0069B695 /* XPathMO.m */; };
+		B3EA43EA102F4D920069B695 /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3EA43E9102F4D920069B695 /* CountryCodes.plist */; };
+		B3EDB122101855F10013C798 /* AppDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3EDB121101855F10013C798 /* AppDefaults.plist */; };
+		B3EE96DF10165CA600815167 /* SiteInformationMO.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE96DE10165CA600815167 /* SiteInformationMO.m */; };
+		B3F608251083BC2D00E1F1C5 /* Todo.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3F608241083BC2D00E1F1C5 /* Todo.rtf */; };
+		B3FEBFFD103DE63E00FB2C0E /* AddressUpdate.icns in Resources */ = {isa = PBXBuildFile; fileRef = B3FEBFFC103DE63E00FB2C0E /* AddressUpdate.icns */; };
+		B3FEC003103DEBD700FB2C0E /* AddressUpdateSite.icns in Resources */ = {isa = PBXBuildFile; fileRef = B3FEC002103DEBD700FB2C0E /* AddressUpdateSite.icns */; };
+		B3FEC036103DEF6D00FB2C0E /* AddressUpdateSiteImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3FEC035103DEF6D00FB2C0E /* AddressUpdateSiteImporter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B387E5091015C62B00F1D741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B387E5021015C62B00F1D741 /* AddressUpdateKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = AddressUpdateKit;
+		};
+		B387E50E1015C67600F1D741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B387E5021015C62B00F1D741 /* AddressUpdateKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = AddressUpdateKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B387E5181015C68100F1D741 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B3886A4610729A61005E81A0 /* libpcre.a in CopyFiles */,
+				B387E50D1015C66900F1D741 /* AddressUpdateKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* AddressUpdate_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressUpdate_Prefix.pch; sourceTree = "<group>"; };
+		418956B310139AD4003F6124 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		418956B410139AD4003F6124 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		41994DC81013C5D500705A5C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		770B37EC0679A11B001EADE2 /* AddressUpdate_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = AddressUpdate_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		77C8280B06725ACE000B614F /* AddressUpdate_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressUpdate_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* AddressUpdate_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressUpdate_AppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AddressUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3088BBB105430B80052A6BF /* AddresUpdateStatusBarTrace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddresUpdateStatusBarTrace.png; path = ../AddresUpdateStatusBarTrace.png; sourceTree = SOURCE_ROOT; };
+		B3088BDB1054381C0052A6BF /* AddresUpdateStatusBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddresUpdateStatusBarBackground.png; path = ../AddresUpdateStatusBarBackground.png; sourceTree = SOURCE_ROOT; };
+		B31AB39D103207AF00334381 /* UpdateSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateSheet.xib; sourceTree = "<group>"; };
+		B31AB3A01032096F00334381 /* UpdateWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateWindowController.h; sourceTree = "<group>"; };
+		B31AB3A11032096F00334381 /* UpdateWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateWindowController.m; sourceTree = "<group>"; };
+		B338AF661018F05C00567D0F /* StatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItemView.h; sourceTree = "<group>"; };
+		B338AF671018F05C00567D0F /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
+		B338B0051019AA7300567D0F /* AdressBookStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdressBookStatusItemView.h; sourceTree = "<group>"; };
+		B338B0061019AA7300567D0F /* AdressBookStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdressBookStatusItemView.m; sourceTree = "<group>"; };
+		B338B0FF1019C14200567D0F /* RecordUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordUpdater.h; sourceTree = "<group>"; };
+		B338B1001019C14200567D0F /* RecordUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordUpdater.m; sourceTree = "<group>"; };
+		B3711A71103B406B00EEB785 /* OffButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OffButton.png; path = ../OffButton.png; sourceTree = SOURCE_ROOT; };
+		B3711A72103B406B00EEB785 /* OnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OnButton.png; path = ../OnButton.png; sourceTree = SOURCE_ROOT; };
+		B387E5021015C62B00F1D741 /* AddressUpdateKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AddressUpdateKit.xcodeproj; path = ../AddressUpdateKit/AddressUpdateKit.xcodeproj; sourceTree = "<group>"; };
+		B387E51B1015CAF800F1D741 /* TabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabView.h; sourceTree = "<group>"; };
+		B387E51C1015CAF800F1D741 /* TabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabView.m; sourceTree = "<group>"; };
+		B3886A4510729A61005E81A0 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpcre.a; sourceTree = "<group>"; };
+		B3886A5E10729FCB005E81A0 /* objpcre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objpcre.m; sourceTree = "<group>"; };
+		B3886A5F10729FCB005E81A0 /* objpcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objpcre.h; sourceTree = "<group>"; };
+		B3886A621072A210005E81A0 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pcre.h; sourceTree = "<group>"; };
+		B38C53291090D5DF0023DEF8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B38C532C1090D60A0023DEF8 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B38C534C1090D69F0023DEF8 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B38C53571090D6D80023DEF8 /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = sv; path = sv.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B39CFBEE1015DEF900E5CA05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		B39CFCD11016147F00E5CA05 /* AddressBookUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookUpdater.h; sourceTree = "<group>"; };
+		B39CFCD21016147F00E5CA05 /* AddressBookUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookUpdater.m; sourceTree = "<group>"; };
+		B3A217671041D63100A31B0F /* ToolbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolbarController.h; sourceTree = "<group>"; };
+		B3A217681041D63100A31B0F /* ToolbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolbarController.m; sourceTree = "<group>"; };
+		B3A9F32A1056C146006F1681 /* XPathsSortDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathsSortDescriptor.h; sourceTree = "<group>"; };
+		B3A9F32B1056C146006F1681 /* XPathsSortDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathsSortDescriptor.m; sourceTree = "<group>"; };
+		B3ACAC8B1018C119004B6820 /* NSImage-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage-Extras.h"; sourceTree = "<group>"; };
+		B3ACAC8C1018C119004B6820 /* NSImage-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage-Extras.m"; sourceTree = "<group>"; };
+		B3B4701E108BB86A00094217 /* Site Configurations */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Site Configurations"; path = "../Sites/Site Configurations"; sourceTree = SOURCE_ROOT; };
+		B3D97FCC104F02C2001FB43B /* AddresUpdateStatusBarSpot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddresUpdateStatusBarSpot.png; path = ../AddresUpdateStatusBarSpot.png; sourceTree = SOURCE_ROOT; };
+		B3D97FCD104F02C2001FB43B /* AddresUpdateStatusBarSweeper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AddresUpdateStatusBarSweeper.png; path = ../AddresUpdateStatusBarSweeper.png; sourceTree = SOURCE_ROOT; };
+		B3EA4386102F46CA0069B695 /* XPathMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathMO.h; sourceTree = "<group>"; };
+		B3EA4387102F474C0069B695 /* XPathMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathMO.m; sourceTree = "<group>"; };
+		B3EA43E9102F4D920069B695 /* CountryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryCodes.plist; sourceTree = "<group>"; };
+		B3EA4405102F53470069B695 /* UserDefaultsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsKeys.h; sourceTree = "<group>"; };
+		B3EDB121101855F10013C798 /* AppDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppDefaults.plist; sourceTree = "<group>"; };
+		B3EE96DD10165CA600815167 /* SiteInformationMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteInformationMO.h; sourceTree = "<group>"; };
+		B3EE96DE10165CA600815167 /* SiteInformationMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteInformationMO.m; sourceTree = "<group>"; };
+		B3F608241083BC2D00E1F1C5 /* Todo.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Todo.rtf; sourceTree = "<group>"; };
+		B3FEBFFC103DE63E00FB2C0E /* AddressUpdate.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AddressUpdate.icns; sourceTree = "<group>"; };
+		B3FEC002103DEBD700FB2C0E /* AddressUpdateSite.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AddressUpdateSite.icns; sourceTree = "<group>"; };
+		B3FEC034103DEF6D00FB2C0E /* AddressUpdateSiteImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressUpdateSiteImporter.h; sourceTree = "<group>"; };
+		B3FEC035103DEF6D00FB2C0E /* AddressUpdateSiteImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressUpdateSiteImporter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3886A981072A382005E81A0 /* libpcre.a in Frameworks */,
+				B387E50B1015C64500F1D741 /* AddressUpdateKit.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				41994DC91013C5D500705A5C /* AddressBook.framework in Frameworks */,
+				B39CFBEF1015DEF900E5CA05 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9F3291056C12B006F1681 /* Sort Descriptors */,
+				B3A217661041D60F00A31B0F /* Controllers */,
+				B340D2BE1020C79C00C601A7 /* Workers */,
+				B340D2BD1020C79500C601A7 /* View */,
+				77C8280B06725ACE000B614F /* AddressUpdate_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* AddressUpdate_AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39CFBEE1015DEF900E5CA05 /* QuartzCore.framework */,
+				41994DC81013C5D500705A5C /* AddressBook.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3886A4510729A61005E81A0 /* libpcre.a */,
+				77C82804067257F0000B614F /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AddressUpdate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AddressUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				B387E5021015C62B00F1D741 /* AddressUpdateKit.xcodeproj */,
+				7756732906782D8800D1FEB8 /* Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B3F608241083BC2D00E1F1C5 /* Todo.rtf */,
+			);
+			name = AddressUpdate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B3886A5C10729FA1005E81A0 /* ObjPCRE */,
+				B3ACAC8B1018C119004B6820 /* NSImage-Extras.h */,
+				B3ACAC8C1018C119004B6820 /* NSImage-Extras.m */,
+				32CA4F630368D1EE00C91783 /* AddressUpdate_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				B3EA4405102F53470069B695 /* UserDefaultsKeys.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B38C532B1090D60A0023DEF8 /* Localizable.strings */,
+				B38C53281090D5DF0023DEF8 /* MainMenu.xib */,
+				B3B4701E108BB86A00094217 /* Site Configurations */,
+				B3088BDB1054381C0052A6BF /* AddresUpdateStatusBarBackground.png */,
+				B3088BBB105430B80052A6BF /* AddresUpdateStatusBarTrace.png */,
+				B3D97FCC104F02C2001FB43B /* AddresUpdateStatusBarSpot.png */,
+				B3D97FCD104F02C2001FB43B /* AddresUpdateStatusBarSweeper.png */,
+				B3FEC002103DEBD700FB2C0E /* AddressUpdateSite.icns */,
+				B3FEBFFC103DE63E00FB2C0E /* AddressUpdate.icns */,
+				B3711A71103B406B00EEB785 /* OffButton.png */,
+				B3711A72103B406B00EEB785 /* OnButton.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				B3EDB121101855F10013C798 /* AppDefaults.plist */,
+				B3EA43E9102F4D920069B695 /* CountryCodes.plist */,
+				B31AB39D103207AF00334381 /* UpdateSheet.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* AddressUpdate_DataModel.xcdatamodel */,
+				B3EE96DD10165CA600815167 /* SiteInformationMO.h */,
+				B3EE96DE10165CA600815167 /* SiteInformationMO.m */,
+				B3EA4386102F46CA0069B695 /* XPathMO.h */,
+				B3EA4387102F474C0069B695 /* XPathMO.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B340D2BD1020C79500C601A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B387E51B1015CAF800F1D741 /* TabView.h */,
+				B387E51C1015CAF800F1D741 /* TabView.m */,
+				B338AF661018F05C00567D0F /* StatusItemView.h */,
+				B338AF671018F05C00567D0F /* StatusItemView.m */,
+				B338B0051019AA7300567D0F /* AdressBookStatusItemView.h */,
+				B338B0061019AA7300567D0F /* AdressBookStatusItemView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B340D2BE1020C79C00C601A7 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+				B39CFCD11016147F00E5CA05 /* AddressBookUpdater.h */,
+				B39CFCD21016147F00E5CA05 /* AddressBookUpdater.m */,
+				B338B0FF1019C14200567D0F /* RecordUpdater.h */,
+				B338B1001019C14200567D0F /* RecordUpdater.m */,
+				B3FEC034103DEF6D00FB2C0E /* AddressUpdateSiteImporter.h */,
+				B3FEC035103DEF6D00FB2C0E /* AddressUpdateSiteImporter.m */,
+			);
+			name = Workers;
+			sourceTree = "<group>";
+		};
+		B387E5031015C62B00F1D741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B387E50A1015C62B00F1D741 /* AddressUpdateKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3886A5C10729FA1005E81A0 /* ObjPCRE */ = {
+			isa = PBXGroup;
+			children = (
+				B3886A621072A210005E81A0 /* pcre.h */,
+				B3886A5E10729FCB005E81A0 /* objpcre.m */,
+				B3886A5F10729FCB005E81A0 /* objpcre.h */,
+			);
+			name = ObjPCRE;
+			sourceTree = "<group>";
+		};
+		B3A217661041D60F00A31B0F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B31AB3A01032096F00334381 /* UpdateWindowController.h */,
+				B31AB3A11032096F00334381 /* UpdateWindowController.m */,
+				418956B310139AD4003F6124 /* AppController.h */,
+				418956B410139AD4003F6124 /* AppController.m */,
+				B3A217671041D63100A31B0F /* ToolbarController.h */,
+				B3A217681041D63100A31B0F /* ToolbarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B3A9F3291056C12B006F1681 /* Sort Descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				B3A9F32A1056C146006F1681 /* XPathsSortDescriptor.h */,
+				B3A9F32B1056C146006F1681 /* XPathsSortDescriptor.m */,
+			);
+			name = "Sort Descriptors";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AddressUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "AddressUpdate" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				B387E5181015C68100F1D741 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B387E50F1015C67600F1D741 /* PBXTargetDependency */,
+			);
+			name = AddressUpdate;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AddressUpdate;
+			productReference = 8D1107320486CEB800E47090 /* AddressUpdate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "AddressUpdate" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				sv,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AddressUpdate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B387E5031015C62B00F1D741 /* Products */;
+					ProjectRef = B387E5021015C62B00F1D741 /* AddressUpdateKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AddressUpdate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B387E50A1015C62B00F1D741 /* AddressUpdateKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AddressUpdateKit.framework;
+			remoteRef = B387E5091015C62B00F1D741 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				B3EDB122101855F10013C798 /* AppDefaults.plist in Resources */,
+				B3EA43EA102F4D920069B695 /* CountryCodes.plist in Resources */,
+				B31AB39E103207AF00334381 /* UpdateSheet.xib in Resources */,
+				B3711A73103B406B00EEB785 /* OffButton.png in Resources */,
+				B3711A74103B406B00EEB785 /* OnButton.png in Resources */,
+				B3FEBFFD103DE63E00FB2C0E /* AddressUpdate.icns in Resources */,
+				B3FEC003103DEBD700FB2C0E /* AddressUpdateSite.icns in Resources */,
+				B3D97FCF104F02C2001FB43B /* AddresUpdateStatusBarSpot.png in Resources */,
+				B3D97FD0104F02C2001FB43B /* AddresUpdateStatusBarSweeper.png in Resources */,
+				B3088BBC105430B80052A6BF /* AddresUpdateStatusBarTrace.png in Resources */,
+				B3088BDC1054381C0052A6BF /* AddresUpdateStatusBarBackground.png in Resources */,
+				B3F608251083BC2D00E1F1C5 /* Todo.rtf in Resources */,
+				B3B4702A108BB86A00094217 /* Site Configurations in Resources */,
+				B38C532A1090D5DF0023DEF8 /* MainMenu.xib in Resources */,
+				B38C532D1090D60A0023DEF8 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* AddressUpdate_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* AddressUpdate_DataModel.xcdatamodel in Sources */,
+				418956B510139AD4003F6124 /* AppController.m in Sources */,
+				B387E51D1015CAF800F1D741 /* TabView.m in Sources */,
+				B39CFCD31016147F00E5CA05 /* AddressBookUpdater.m in Sources */,
+				B3EE96DF10165CA600815167 /* SiteInformationMO.m in Sources */,
+				B3ACAC8D1018C119004B6820 /* NSImage-Extras.m in Sources */,
+				B338AF681018F05C00567D0F /* StatusItemView.m in Sources */,
+				B338B0071019AA7300567D0F /* AdressBookStatusItemView.m in Sources */,
+				B338B1011019C14200567D0F /* RecordUpdater.m in Sources */,
+				B3EA4388102F474C0069B695 /* XPathMO.m in Sources */,
+				B31AB3A21032096F00334381 /* UpdateWindowController.m in Sources */,
+				B3FEC036103DEF6D00FB2C0E /* AddressUpdateSiteImporter.m in Sources */,
+				B3A217691041D63100A31B0F /* ToolbarController.m in Sources */,
+				B3A9F32C1056C146006F1681 /* XPathsSortDescriptor.m in Sources */,
+				B3886A6010729FCB005E81A0 /* objpcre.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B387E50F1015C67600F1D741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddressUpdateKit;
+			targetProxy = B387E50E1015C67600F1D741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B38C53281090D5DF0023DEF8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38C53291090D5DF0023DEF8 /* English */,
+				B38C53571090D6D80023DEF8 /* sv */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B38C532B1090D60A0023DEF8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38C532C1090D60A0023DEF8 /* English */,
+				B38C534C1090D69F0023DEF8 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AddressUpdate_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "DDEBUG=1";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = AddressUpdate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AddressUpdate_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = AddressUpdate;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "AddressUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "AddressUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

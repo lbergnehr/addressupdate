@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72E3845E04BE07B500C808FE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72E3845D04BE07B500C808FE /* AddressBook.framework */; };
+		8D1AC96B0486D14A00FE50C9 /* AddressUpdate_Address_Book_Plug_In.m in Sources */ = {isa = PBXBuildFile; fileRef = 0259C576FE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In.m */; settings = {ATTRIBUTES = (); }; };
+		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */; };
+		B34F5972107E7C77005EA017 /* libpcre.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B34F5971107E7C77005EA017 /* libpcre.a */; };
+		B34F5973107E7C88005EA017 /* libpcre.a in CopyFiles */ = {isa = PBXBuildFile; fileRef = B34F5971107E7C77005EA017 /* libpcre.a */; };
+		B34F5983107E7D61005EA017 /* objpcre.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F5981107E7D61005EA017 /* objpcre.m */; };
+		B370C827106AC08000FD8E80 /* AU-AB-Plug-In.icns in Resources */ = {isa = PBXBuildFile; fileRef = B370C826106AC08000FD8E80 /* AU-AB-Plug-In.icns */; };
+		B3CF548D10666C66008F844D /* AddressBookUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF548710666C66008F844D /* AddressBookUpdater.m */; };
+		B3CF548E10666C66008F844D /* SiteInformationMO.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF548910666C66008F844D /* SiteInformationMO.m */; };
+		B3CF548F10666C66008F844D /* XPathMO.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF548C10666C66008F844D /* XPathMO.m */; };
+		B3CF549610666D06008F844D /* RecordUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF549510666D06008F844D /* RecordUpdater.m */; };
+		B3CF549A10666D2F008F844D /* AddressUpdate_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF549910666D2F008F844D /* AddressUpdate_AppDelegate.m */; };
+		B3CF551E10667D9C008F844D /* AddressUpdate_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = B3CF551D10667D9C008F844D /* AddressUpdate_DataModel.xcdatamodel */; };
+		B3ED433910696BD5007C2295 /* AddressUpdateKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CF546310666777008F844D /* AddressUpdateKit.framework */; };
+		B3ED433A10696BF0007C2295 /* AddressUpdateKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3CF546310666777008F844D /* AddressUpdateKit.framework */; };
+		B3EDF83A1066AEE600532A05 /* AppDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3EDF8381066AEE600532A05 /* AppDefaults.plist */; };
+		B3EDF83B1066AEE600532A05 /* CountryCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3EDF8391066AEE600532A05 /* CountryCodes.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3CF546210666777008F844D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CF545E10666777008F844D /* AddressUpdateKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = AddressUpdateKit;
+		};
+		B3ED42F810696A5A007C2295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CF545E10666777008F844D /* AddressUpdateKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = AddressUpdateKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3CF5467106667EF008F844D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B34F5973107E7C88005EA017 /* libpcre.a in CopyFiles */,
+				B3ED433A10696BF0007C2295 /* AddressUpdateKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0259C576FE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AddressUpdate_Address_Book_Plug_In.m; sourceTree = "<group>"; };
+		0259C57AFE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AddressUpdate_Address_Book_Plug_In.h; sourceTree = "<group>"; };
+		32DBCF980370C29C00C91783 /* AddressUpdate Address Book Plug-In_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AddressUpdate Address Book Plug-In_Prefix.pch"; sourceTree = "<group>"; };
+		72E3845D04BE07B500C808FE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1AC9740486D14A00FE50C9 /* AddressUpdate Address Book Plug-In.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AddressUpdate Address Book Plug-In.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B34F5971107E7C77005EA017 /* libpcre.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpcre.a; path = ../AddressUpdate/libpcre.a; sourceTree = SOURCE_ROOT; };
+		B34F5980107E7D61005EA017 /* objpcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = objpcre.h; path = ../AddressUpdate/objpcre.h; sourceTree = SOURCE_ROOT; };
+		B34F5981107E7D61005EA017 /* objpcre.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = objpcre.m; path = ../AddressUpdate/objpcre.m; sourceTree = SOURCE_ROOT; };
+		B34F5982107E7D61005EA017 /* pcre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pcre.h; path = ../AddressUpdate/pcre.h; sourceTree = SOURCE_ROOT; };
+		B370C826106AC08000FD8E80 /* AU-AB-Plug-In.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "AU-AB-Plug-In.icns"; sourceTree = "<group>"; };
+		B3CF545E10666777008F844D /* AddressUpdateKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AddressUpdateKit.xcodeproj; path = ../AddressUpdateKit/AddressUpdateKit.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B3CF548610666C66008F844D /* AddressBookUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressBookUpdater.h; path = ../AddressUpdate/AddressBookUpdater.h; sourceTree = SOURCE_ROOT; };
+		B3CF548710666C66008F844D /* AddressBookUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressBookUpdater.m; path = ../AddressUpdate/AddressBookUpdater.m; sourceTree = SOURCE_ROOT; };
+		B3CF548810666C66008F844D /* SiteInformationMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SiteInformationMO.h; path = ../AddressUpdate/SiteInformationMO.h; sourceTree = SOURCE_ROOT; };
+		B3CF548910666C66008F844D /* SiteInformationMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SiteInformationMO.m; path = ../AddressUpdate/SiteInformationMO.m; sourceTree = SOURCE_ROOT; };
+		B3CF548A10666C66008F844D /* UserDefaultsKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserDefaultsKeys.h; path = ../AddressUpdate/UserDefaultsKeys.h; sourceTree = SOURCE_ROOT; };
+		B3CF548B10666C66008F844D /* XPathMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathMO.h; path = ../AddressUpdate/XPathMO.h; sourceTree = SOURCE_ROOT; };
+		B3CF548C10666C66008F844D /* XPathMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathMO.m; path = ../AddressUpdate/XPathMO.m; sourceTree = SOURCE_ROOT; };
+		B3CF549410666D06008F844D /* RecordUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecordUpdater.h; path = ../AddressUpdate/RecordUpdater.h; sourceTree = SOURCE_ROOT; };
+		B3CF549510666D06008F844D /* RecordUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecordUpdater.m; path = ../AddressUpdate/RecordUpdater.m; sourceTree = SOURCE_ROOT; };
+		B3CF549810666D2F008F844D /* AddressUpdate_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressUpdate_AppDelegate.h; path = ../AddressUpdate/AddressUpdate_AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B3CF549910666D2F008F844D /* AddressUpdate_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressUpdate_AppDelegate.m; path = ../AddressUpdate/AddressUpdate_AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B3CF551D10667D9C008F844D /* AddressUpdate_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = AddressUpdate_DataModel.xcdatamodel; path = ../AddressUpdate/AddressUpdate_DataModel.xcdatamodel; sourceTree = SOURCE_ROOT; };
+		B3EDF8381066AEE600532A05 /* AppDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppDefaults.plist; path = ../AddressUpdate/AppDefaults.plist; sourceTree = SOURCE_ROOT; };
+		B3EDF8391066AEE600532A05 /* CountryCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CountryCodes.plist; path = ../AddressUpdate/CountryCodes.plist; sourceTree = SOURCE_ROOT; };
+		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1AC96E0486D14A00FE50C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34F5972107E7C77005EA017 /* libpcre.a in Frameworks */,
+				B3ED433910696BD5007C2295 /* AddressUpdateKit.framework in Frameworks */,
+				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
+				72E3845E04BE07B500C808FE /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0259C574FE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF545E10666777008F844D /* AddressUpdateKit.xcodeproj */,
+				32DBCF9E0370C38000C91783 /* Classes */,
+				32DBCF9F0370C38200C91783 /* Other Sources */,
+				0259C582FE90428111CA0C5A /* Resources */,
+				1ED78706FE9D4A0611CA0C5A /* Products */,
+				2E58F364FFB232C311CA0CBA /* Frameworks */,
+			);
+			name = AddressUpdate_Address_Book_Plug_In;
+			sourceTree = "<group>";
+		};
+		0259C582FE90428111CA0C5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B370C826106AC08000FD8E80 /* AU-AB-Plug-In.icns */,
+				B3EDF8381066AEE600532A05 /* AppDefaults.plist */,
+				B3EDF8391066AEE600532A05 /* CountryCodes.plist */,
+				8D1AC9730486D14A00FE50C9 /* Info.plist */,
+				8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1ED78706FE9D4A0611CA0C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AC9740486D14A00FE50C9 /* AddressUpdate Address Book Plug-In.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B34F5971107E7C77005EA017 /* libpcre.a */,
+				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
+				72E3845D04BE07B500C808FE /* AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DBCF9E0370C38000C91783 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF549010666C7D008F844D /* AddressUpdate Classes */,
+				0259C57AFE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In.h */,
+				0259C576FE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32DBCF9F0370C38200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B34F5980107E7D61005EA017 /* objpcre.h */,
+				B34F5981107E7D61005EA017 /* objpcre.m */,
+				B34F5982107E7D61005EA017 /* pcre.h */,
+				32DBCF980370C29C00C91783 /* AddressUpdate Address Book Plug-In_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B3CF545F10666777008F844D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF546310666777008F844D /* AddressUpdateKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3CF549010666C7D008F844D /* AddressUpdate Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF551D10667D9C008F844D /* AddressUpdate_DataModel.xcdatamodel */,
+				B3CF549810666D2F008F844D /* AddressUpdate_AppDelegate.h */,
+				B3CF549910666D2F008F844D /* AddressUpdate_AppDelegate.m */,
+				B3CF549410666D06008F844D /* RecordUpdater.h */,
+				B3CF549510666D06008F844D /* RecordUpdater.m */,
+				B3CF548610666C66008F844D /* AddressBookUpdater.h */,
+				B3CF548710666C66008F844D /* AddressBookUpdater.m */,
+				B3CF548810666C66008F844D /* SiteInformationMO.h */,
+				B3CF548910666C66008F844D /* SiteInformationMO.m */,
+				B3CF548A10666C66008F844D /* UserDefaultsKeys.h */,
+				B3CF548B10666C66008F844D /* XPathMO.h */,
+				B3CF548C10666C66008F844D /* XPathMO.m */,
+			);
+			name = "AddressUpdate Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1AC9600486D14A00FE50C9 /* AddressUpdate Address Book Plug-In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C027D11908A954E7001699E2 /* Build configuration list for PBXNativeTarget "AddressUpdate Address Book Plug-In" */;
+			buildPhases = (
+				8D1AC9660486D14A00FE50C9 /* Resources */,
+				8D1AC96A0486D14A00FE50C9 /* Sources */,
+				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
+				B3CF5467106667EF008F844D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3ED42F910696A5A007C2295 /* PBXTargetDependency */,
+			);
+			name = "AddressUpdate Address Book Plug-In";
+			productInstallPath = "$(HOME)/Developer/Palettes";
+			productName = "AddressUpdate Address Book Plug-In";
+			productReference = 8D1AC9740486D14A00FE50C9 /* AddressUpdate Address Book Plug-In.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0259C573FE90428111CA0C5A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C027D11D08A954E7001699E2 /* Build configuration list for PBXProject "AddressUpdate Address Book Plug-In" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0259C574FE90428111CA0C5A /* AddressUpdate_Address_Book_Plug_In */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B3CF545F10666777008F844D /* Products */;
+					ProjectRef = B3CF545E10666777008F844D /* AddressUpdateKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8D1AC9600486D14A00FE50C9 /* AddressUpdate Address Book Plug-In */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B3CF546310666777008F844D /* AddressUpdateKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AddressUpdateKit.framework;
+			remoteRef = B3CF546210666777008F844D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1AC9660486D14A00FE50C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC9800486D23B00FE50C9 /* InfoPlist.strings in Resources */,
+				B3EDF83A1066AEE600532A05 /* AppDefaults.plist in Resources */,
+				B3EDF83B1066AEE600532A05 /* CountryCodes.plist in Resources */,
+				B370C827106AC08000FD8E80 /* AU-AB-Plug-In.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1AC96A0486D14A00FE50C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1AC96B0486D14A00FE50C9 /* AddressUpdate_Address_Book_Plug_In.m in Sources */,
+				B3CF548D10666C66008F844D /* AddressBookUpdater.m in Sources */,
+				B3CF548E10666C66008F844D /* SiteInformationMO.m in Sources */,
+				B3CF548F10666C66008F844D /* XPathMO.m in Sources */,
+				B3CF549610666D06008F844D /* RecordUpdater.m in Sources */,
+				B3CF549A10666D2F008F844D /* AddressUpdate_AppDelegate.m in Sources */,
+				B3CF551E10667D9C008F844D /* AddressUpdate_DataModel.xcdatamodel in Sources */,
+				B34F5983107E7D61005EA017 /* objpcre.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3ED42F910696A5A007C2295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AddressUpdateKit;
+			targetProxy = B3ED42F810696A5A007C2295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D1AC97B0486D23100FE50C9 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C027D11A08A954E7001699E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressUpdate Address Book Plug-In_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AddressUpdate\"",
+				);
+				PRODUCT_NAME = "AddressUpdate Address Book Plug-In";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C027D11B08A954E7001699E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddressUpdate Address Book Plug-In_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Developer/Palettes";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../AddressUpdate\"",
+				);
+				PRODUCT_NAME = "AddressUpdate Address Book Plug-In";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C027D11E08A954E7001699E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C027D11F08A954E7001699E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C027D11908A954E7001699E2 /* Build configuration list for PBXNativeTarget "AddressUpdate Address Book Plug-In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D11A08A954E7001699E2 /* Debug */,
+				C027D11B08A954E7001699E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C027D11D08A954E7001699E2 /* Build configuration list for PBXProject "AddressUpdate Address Book Plug-In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C027D11E08A954E7001699E2 /* Debug */,
+				C027D11F08A954E7001699E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0259C573FE90428111CA0C5A /* Project object */;
+}

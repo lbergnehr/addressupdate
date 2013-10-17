@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Enrio</string>
+	<key>url</key>
+	<string>http://www.eniro.dk/query?</string>
+	<key>searchAttribute</key>
+	<string>search_word</string>
+	<key>stringEncoding</key>
+	<integer>5</integer>
+	<key>country</key>
+	<string>DK</string>
+	<key>xpaths</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>firstName</string>
+			<key>path</key>
+			<string>//div[@id=&apos;hit_1&apos;]/h3/a/span</string>
+			<key>regExp</key>
+			<string>^[^\s]+</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>lastName</string>
+			<key>path</key>
+			<string>//div[@id=&apos;hit_1&apos;]/h3/a/span</string>
+			<key>regExp</key>
+			<string>\s[^,]+</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>streetAddress</string>
+			<key>path</key>
+			<string>//span[@class=&apos;street-address&apos;]</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>postalCode</string>
+			<key>path</key>
+			<string>//span[@class=&apos;postal-code&apos;]</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>locality</string>
+			<key>path</key>
+			<string>//span[@class=&apos;locality&apos;]</string>
+		</dict>
+	</array>
+</dict>
+</plist>

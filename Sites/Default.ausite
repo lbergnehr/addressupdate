@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>A descriptive name</string>
+	<key>url</key>
+	<string>http://address-to-search-site.com</string>
+	<key>searchAttribute</key>
+	<string>Name attribute on search field</string>
+	<key>stringEncoding</key>
+	<integer>5</integer>
+	<key>xpaths</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>firstName</string>
+			<key>path</key>
+			<string>XPath to first name value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>lastName</string>
+			<key>path</key>
+			<string>XPath to second name value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>streetAddress</string>
+			<key>path</key>
+			<string>XPath to street address value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>streetNumber</string>
+			<key>path</key>
+			<string>XPath to street number value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>streetNumberSuffix</string>
+			<key>path</key>
+			<string>XPath to street number suffix value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>postalCode</string>
+			<key>path</key>
+			<string>XPath to postal code/zip code value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>locality</string>
+			<key>path</key>
+			<string>XPath to locality/city value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>state</string>
+			<key>path</key>
+			<string>XPath to state value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>homePhone</string>
+			<key>path</key>
+			<string>XPath to home phone number value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>workPhone</string>
+			<key>path</key>
+			<string>XPath to work phone number value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>mobilePhone</string>
+			<key>path</key>
+			<string>XPath to mobile phone/cell phone number value</string>
+			<key>regExp</key>
+			<string>Optional regular expression to apply to the result of the XPath query</string>
+		</dict>
+	</array>
+</dict>
+</plist>

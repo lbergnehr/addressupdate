@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>1888.no</string>
+	<key>url</key>
+	<string>http://1888.no/Default.aspx</string>
+	<key>searchAttribute</key>
+	<string>type=person&amp;page=1&amp;query</string>
+	<key>stringEncoding</key>
+	<integer>5</integer>
+	<key>country</key>
+	<string>NO</string>
+	<key>xpaths</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>streetAddress</string>
+			<key>path</key>
+			<string>//td[@class=&apos;AddressFont&apos;]/div</string>
+			<key>regExp</key>
+			<string>[^,]+</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>postalCode</string>
+			<key>path</key>
+			<string>//td[@class=&apos;AddressFont&apos;]/div</string>
+			<key>regExp</key>
+			<string>(?&lt;=,).*[0-9]{4,}</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>locality</string>
+			<key>path</key>
+			<string>//td[@class=&apos;AddressFont&apos;]/div</string>
+			<key>regExp</key>
+			<string>\s[^0-9].*$</string>
+		</dict>
+	</array>
+</dict>
+</plist>

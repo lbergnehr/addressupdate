@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'AddressUpdate Address Book Plug-In' target in the 'AddressUpdate Address Book Plug-In' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <AddressBook/AddressBook.h>
+#endif

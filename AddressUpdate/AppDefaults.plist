@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>useConcurrentLookups</key>
+	<false/>
+	<key>isActive</key>
+	<false/>
+	<key>shouldUpdateNames</key>
+	<false/>
+	<key>shouldUpdateAddresses</key>
+	<true/>
+	<key>shouldUpdateOtherPhoneNumbers</key>
+	<false/>
+	<key>shouldUpdateCountryInAddress</key>
+	<true/>
+	<key>isFirstTimeLaunch</key>
+	<true/>
+	<key>numberOfRecordsUpdated</key>
+	<integer>0</integer>
+	<key>startAtLogin</key>
+	<false/>
+	<key>selectedSiteUri</key>
+	<string></string>
+</dict>
+</plist>
